@@ -1,0 +1,27 @@
+GenAI Engineering Intern at VWO
+
+We're on the lookout for a talented engineering intern for the GenAI team at VWO.
+
+The GenAI team builds complex, smart automated systems using LLMs and agentic frameworks. This team works fast and loves to build things from the ground up. Exactly like a 0 to 1 startup.
+
+What You'll Actually Be Doing:
+
+You'll be right in the mix, helping us design and build these intelligent systems.
+Expect to write code that we aim to review and merge quickly – sometimes even on your first day.
+You’ll get access to our real production environments, not just sandboxes. 
+You'll be part of the whole journey: thinking up ideas, trying them out, and then building them for real users.
+
+We're Looking For Someone Who:
+
+Knows their way around agentic frameworks (LangGraph, CrewAI, Agents SDK etc.), Python, Git, and databases (like MongoDB or Graph DB).
+It’s a good plus if you've worked with queuing systems.
+Has, ideally, already helped build and launch an agentic product that people are actually using.
+Can explain their thoughts, ideas, or problems clearly and simply. We value clarity over complex jargon.
+Likes to take ownership and see things through.
+Has that "0 to 1" startup drive – excited to build new things.
+
+What's In It For You:
+
+A chance to work on serious production spec AI projects.
+This is a 6-month paid internship. Perform well, and there’s a good chance to join our team full-time afterward.
+

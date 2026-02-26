@@ -17,7 +17,7 @@ def run_crew(query: str, file_path: str="data/sample.pdf"):
         process=Process.sequential,
     )
     
-    result = financial_crew.kickoff({'query': query})
+    result = financial_crew.kickoff({"query": query, "file_path": file_path})
     return result
 
 @app.get("/")
@@ -26,7 +26,7 @@ async def root():
     return {"message": "Financial Document Analyzer API is running"}
 
 @app.post("/analyze")
-async def analyze_financial_document(
+async def analyze_financial_doc(
     file: UploadFile = File(...),
     query: str = Form(default="Analyze this financial document for investment insights")
 ):
@@ -68,7 +68,6 @@ async def analyze_financial_document(
                 os.remove(file_path)
             except:
                 pass  # Ignore cleanup errors
-
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=False)
